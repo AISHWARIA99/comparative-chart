@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Philosophy Comparative Chart</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#fdfaf6;
+margin:0;
+padding:40px 20px;
+color:#333;
+}
+
+.main-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.types-label{
+background:#d896b7;
+color:white;
+padding:10px 60px;
+font-size:28px;
+letter-spacing:3px;
+display:inline-block;
+}
+
+.comparison-wrapper{
+display:flex;
+justify-content:center;
+gap:40px;
+max-width:1100px;
+margin:auto;
+flex-wrap:wrap;
+}
+
+.column{
+width:350px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.column-title{
+font-size:24px;
+margin-bottom:20px;
+text-transform:uppercase;
+text-align:center;
+}
+
+.card{
+background:white;
+border:2px solid black;
+width:100%;
+margin-bottom:25px;
+padding:25px 15px;
+text-align:center;
+position:relative;
+box-shadow:4px 4px 0 rgba(0,0,0,0.05);
+}
+
+.number-badge{
+width:35px;
+height:35px;
+border-radius:50%;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+position:absolute;
+top:-18px;
+left:50%;
+transform:translateX(-50%);
+border:1px solid black;
+}
+
+.indian .number-badge{
+background:#26a69a;
+}
+
+.western .number-badge{
+background:#cbd342;
+}
+
+.section-label{
+font-weight:bold;
+font-size:14px;
+text-transform:uppercase;
+margin-bottom:10px;
+display:block;
+}
+
+.section-content{
+font-size:18px;
+line-height:1.4;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="main-header">
+<div class="types-label">Types</div>
+</div>
+
+<div class="comparison-wrapper">
+
+<div class="column indian">
+<h2 class="column-title">Indian Philosophy</h2>
+
+<div class="card">
+<div class="number-badge">1</div>
+<span class="section-label">Origin</span>
+<div class="section-content">Ancient India</div>
+</div>
+
+<div class="card">
+<div class="number-badge">2</div>
+<span class="section-label">Main Thinkers</span>
+<div class="section-content">Adi Shankaracharya, Gautama Buddha</div>
+</div>
+
+<div class="card">
+<div class="number-badge">3</div>
+<span class="section-label">Main Concern</span>
+<div class="section-content">Liberation and ending of suffering</div>
+</div>
+
+<div class="card">
+<div class="number-badge">4</div>
+<span class="section-label">Ultimate Goal</span>
+<div class="section-content">Self-realization, Moksha, Nirvana</div>
+</div>
+
+<div class="card">
+<div class="number-badge">5</div>
+<span class="section-label">Nature of Philosophy</span>
+<div class="section-content">Spiritual and practical</div>
+</div>
+
+</div>
+
+<div class="column western">
+<h2 class="column-title">Western Philosophy</h2>
+
+<div class="card">
+<div class="number-badge">1</div>
+<span class="section-label">Origin</span>
+<div class="section-content">Ancient Greece</div>
+</div>
+
+<div class="card">
+<div class="number-badge">2</div>
+<span class="section-label">Main Thinkers</span>
+<div class="section-content">Socrates, Plato, Aristotle</div>
+</div>
+
+<div class="card">
+<div class="number-badge">3</div>
+<span class="section-label">Main Concern</span>
+<div class="section-content">Knowledge, truth and reality</div>
+</div>
+
+<div class="card">
+<div class="number-badge">4</div>
+<span class="section-label">Ultimate Goal</span>
+<div class="section-content">Knowledge, virtue and happiness</div>
+</div>
+
+<div class="card">
+<div class="number-badge">5</div>
+<span class="section-label">Nature of Philosophy</span>
+<div class="section-content">Rational and theoretical</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
